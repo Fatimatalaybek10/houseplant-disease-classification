@@ -6,3 +6,24 @@ With the growing integration of Deep Learning techniques in plant disease diagno
  (2) with classical augmentation techniques including rotation, scaling, brightness adjustment, and horizontal flipping. 
 The experiments were conducted on a custom dataset of 1,784 houseplant images classified as healthy or wilted. The results show that MobileNetV2 with augmentation achieved a balanced and reliable performance 
 (Accuracy = 0.8399, F1 = 0.8246), and ResNet50 benefited significantly from augmentation. Conversely, DenseNet121 performed best without augmentation (Accuracy = 0.8989, F1 = 0.8966), suggesting its higher sensitivity to aggressive transformations. These findings highlight that classical augmentation remains an effective and accessible approach for improving model generalization in small, real-world datasets. Future work should explore structure-aware generative models and larger annotated datasets to further advance practical applications in houseplant disease diagnosis.
+
+
+The datasets will provided soon, hehe
+
+## Project Overview
+This study investigates automated classification of healthy and wilted houseplants using transfer learning and classical data augmentation techniques on a custom indoor plant dataset.
+
+## Models
+- MobileNetV2
+- ResNet50
+- DenseNet121
+
+## Materials
+- Jupyter Notebook (soon)
+- Academic Poster
+
+## Note
+This repository is shared for academic and portfolio purposes. 
+Please provide appropriate citation if referencing this work.
+
+© 2026 Fatima Sultakeeva
