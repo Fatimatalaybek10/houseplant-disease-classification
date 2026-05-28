@@ -1,0 +1,10 @@
+Datasets: 
+overall we have 2 class of data: wilted(unhealthy) and healthy data. 
+The images were collected from publicly available online sources, including platforms such as Kaggle, Pexels, and the “Plantclinic” community on Reddit. 
+This approach enabled the acquisition of data that realistically reflects the diverse conditions of indoor photography, characterized by high variability in lighting, background, and composition. 
+After preprocessing and annotation, the final dataset comprised 1,784 images, categorized into two classes: healthy and wilted. 
+Of these, 1,428 images (80%) were used for training, and 356 images (20%) were allocated for validation. The dataset was split stratified by class to maintain a balanced distribution. 
+All images were resized to 256×256 pixels, normalized, and organized according to the input requirements of the ImageDataGenerator class from the Keras library. 
+The validation set remained unchanged throughout all experiments and was used consistently to evaluate model performance under equal conditions.
+
+The datasets u can dowload from here: https://drive.google.com/drive/folders/1XOIOe1r8Qqaoz8vOXpcDmP_6QhSPzJRI?usp=sharing
