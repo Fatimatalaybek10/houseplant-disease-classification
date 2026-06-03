@@ -19,7 +19,7 @@ This study investigates automated classification of healthy and wilted houseplan
 - DenseNet121
 
 ## Materials
-- Jupyter Notebook (soon)
+- Jupyter Notebook: House_plant_healthdetection(file)
 - Academic Poster
 
 ## Note
